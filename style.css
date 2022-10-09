@@ -9,8 +9,12 @@ body {
     background-color: hsl(212, 45%, 89%);
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;    
+    
+   
 
 }
 
@@ -22,25 +26,31 @@ body {
     display: flex;
     flex-direction: column;
     text-align: center;
+    justify-content: center;
+    
+    
+    
 }
 
-img {
+.qr-img {
     max-width: 288px;
     max-height: 288px;
-    border-radius: 20px;
+    border-radius: 10px;
     margin: 0 auto;
+    margin-top: 16px;
+    
 
 }
 .title {
     color: hsl(218, 44%, 22%);
-    margin: ;
-    font-size: ;
+    margin: 30px 35px 0 35px;
+    font-size: 10px;
     font-weight: 700;
 }
 
 .text {
     color: hsl(220, 15%, 55%);
-    font-size: ;
+    font-size: 15px;
     font-weight: 400;
-    margin:;
+    margin: 21px 35px 40px 35px;
 }
